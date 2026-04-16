@@ -2,6 +2,11 @@
 //
 
 #include <iostream>
+#include "BasicShape.h"
+#include "Circle.h"
+#include "Rectangle.h"
+#include "Square.h"
+using namespace std;
 
 int main()
 {
