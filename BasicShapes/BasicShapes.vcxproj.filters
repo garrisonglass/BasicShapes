@@ -18,10 +18,16 @@
     <ClCompile Include="main%28%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicShape.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
