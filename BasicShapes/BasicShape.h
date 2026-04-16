@@ -24,6 +24,7 @@ public:
 	virtual void calcArea() = 0; // Pure virtual function
 	//Virtual destructor
 	virtual ~BasicShape() {}
+
 };
 
 #endif
