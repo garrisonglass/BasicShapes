@@ -130,6 +130,7 @@
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="main%28%29.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Print.cpp" />
     <ClCompile Include="Square.cpp" />
   </ItemGroup>
   <ItemGroup>
