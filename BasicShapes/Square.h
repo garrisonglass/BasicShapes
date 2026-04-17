@@ -10,9 +10,9 @@ private:
 public:
 	Square(double s, const string& n = "Square");
 
-	// Getter
+	//Getter
 	double getSide() const { return side; }
-	// Setter
+	//Setter
 	void setSide(double s);
 	
 };
