@@ -6,7 +6,8 @@
 class Circle : public BasicShape
 {
 private:
-	double xCenter;
+	
+    double xCenter;
 	double yCenter;
     double radius;
 
@@ -19,11 +20,11 @@ public:
     double getR() const { return radius;  }
 
     //Setters
-    void setX(double x) { xCenter = x; }
-    void setY(double y) { yCenter = y; }
-    void setR(double r) { radius  = r; }
+    void setX(double x); 
+    void setY(double y); 
+    void setR(double r); 
 
-    void calcArea() override { setArea(3.14159 * radius * radius); }
+    void calcArea() override;
 };
 
 #endif

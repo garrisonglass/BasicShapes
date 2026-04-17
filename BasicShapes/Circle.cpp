@@ -25,6 +25,6 @@ void Circle::setR(double r)
 
 void Circle::calcArea()
 {
-	double a = 3.14159 * radius * radius;
+	double a = 3.14159 * pow(radius, 2.0);
 	setArea(a);
 }

@@ -15,9 +15,9 @@ public:
 	double getLength() const { return length; }
 	double getWidth() const { return width; }
 	// Setters
-	void setLength(double l) { length = l; calcArea(); }//Recalculate area when length is updated
-	void setWidth(double w) { width = w; calcArea(); }//Recalculate area when width is updated
+	void setLength(double l);//Recalculate area when length is updated
+	void setWidth(double w);//Recalculate area when width is updated
 	//Override the calcArea method to calculate the area of the rectangle
-	void calcArea() override
+	void calcArea() override;
 };
 #endif
