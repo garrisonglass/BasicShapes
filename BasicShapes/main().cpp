@@ -22,6 +22,7 @@ int main()
 	cout << "Shape areas Test 1" << "\n\n";
 	
 	printShapeAreas(shapes, 3);
+
 	//verify that areas are updated when dimensions change
 	shapes[0] = new Circle(0, 0, 10, "Circle");
 	shapes[1] = new Rectangle(10, 10, "Rectangle");
